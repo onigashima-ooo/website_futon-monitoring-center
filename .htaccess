@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/about.html
+RewriteRule ^(.*)index.html$ https://futon-monitoring-center.onigashima.ooo/about/$1 [R=301,L]
